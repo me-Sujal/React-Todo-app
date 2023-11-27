@@ -33,7 +33,7 @@ export default function Sidebar(props) {
                         onClick={props.collapseSidebar}
                         className="menu-button inside-sidebar"
                     >
-                        <img src="../images/three-bars.png" className="three-bars-icon" />
+                        <img src="../images/three-bars.PNG" className="three-bars-icon" />
                     </button></div>
                 <div className="all-tasks" onClick={() => setFilterCategory("")}>
                     <span className="all-task-text">All Tasks</span>

@@ -147,7 +147,7 @@ export default function App() {
               className="add-task"
               onClick={showPanel}
             >
-              <img src="../images/plus.png" className="add-icon" />
+              <img src="../images/plus.PNG" className="add-icon" />
               Add New Task
             </button>
             <div className="task-list">

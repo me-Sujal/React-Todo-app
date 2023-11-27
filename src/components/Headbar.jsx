@@ -29,7 +29,7 @@ export default function Headbar(props) {
                 style={{ display: !props.collapsedSidebar ? "none" : "block" }}
                 className="menu-button outside-sidebar"
             >
-                <img src="../images/three-bars.png" className="three-bars-icon" />
+                <img src="../images/three-bars.PNG" className="three-bars-icon" />
             </button>
             <div className="header-elements">
                 <span className="category-at header-text">{headText}</span>

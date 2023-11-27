@@ -30,12 +30,12 @@ export default function Tasks(props) {
                     </span>}
                     {props.category !== "" && <span className="category category-name">{props.category}</span>}
                     {props.importance && (<span className="category important">
-                        <img src="../images/filled-star.png" className="important-star-task" />
+                        <img src="../images/filled-star.PNG" className="important-star-task" />
                         &nbsp;Important
                     </span>)}
                 </div>
                 <div className="expand" >
-                    <img src="../images/expand.png" className="expand-icon"></img>
+                    <img src="../images/expand.PNG" className="expand-icon"></img>
                 </div>
             </div>
 

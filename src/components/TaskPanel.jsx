@@ -100,7 +100,7 @@ export default function AddPanel(props) { //for the add task panel
                         onChange={handleSelect}
                     />
                     <img
-                        src={tempTask.important ? "../images/filled-star.png" : "../images/star.png"}
+                        src={tempTask.important ? "../images/filled-star.PNG" : "../images/star.PNG"}
                         className="important-star"
                         onClick={() => setTempTask(prevState => {
                             return {
