@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter Tight', sans-serif;
+}
+
+.main-app {
+  height: 100vh;
+  padding: 15px 20px;
+  display: flex;
+  position: relative;
+}
+
+.main-container {
+  border-radius: 15px;
+  padding: 0 15px;
+}
+
+
+.collapsed-sidebar .task-space {
+  margin-left: 85px;
+}
+
+.add-task {
+  height: 45px;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  text-align: left;
+  padding: 10px 25px;
+  color: lightgray;
+  font-size: 20px;
+}
+
+
+.add-icon {
+  height: 20px;
+  filter: invert(50%);
+  margin-right: 25px;
+  margin-top: 2px;
+}
+
+.task-list {
+  max-height: 500px;
+  overflow-y: auto;
+}

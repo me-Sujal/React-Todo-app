@@ -1,0 +1,149 @@
+.add-task-panel {
+    height: 95vh;
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 30px;
+    justify-self: flex-end;
+    background-color: #f2f2f2;
+}
+
+.task-input {
+    resize: none;
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.task-title-field {
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.task-discription-field {
+    height: 100px;
+}
+
+.category-selector {
+    display: flex;
+    gap: 35px;
+    margin-top: 30px;
+}
+
+.category-text,
+.due-date-text {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.select-option {
+    height: 20px;
+    width: 130px;
+}
+
+.important-star {
+    height: 30px
+}
+
+.date-input {
+    height: 40px;
+    padding: 0 10px;
+    text-align: center;
+    font-size: 14px;
+    margin-left: 37px;
+    border: 1px solid lightgray
+}
+
+.task-panel-button {
+    height: 50px;
+    width: 125px;
+    border: none;
+    margin: 20% 20px 0 0px;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.card-container {
+    position: relative;
+    height: 95vh;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px 30px;
+    overflow-wrap: break-word;
+    background-color: #f2f2f2;
+}
+
+.save-button {
+    background-color: #ffd43b;
+}
+
+
+.discard-button {
+    margin-left: 10%;
+    background-color: #f4f4f4;
+}
+
+.star-icon {
+    height: 22px;
+}
+
+.close {
+    display: flex;
+    justify-content: space-between;
+}
+
+.close>h1 {
+    font-size: 40px
+}
+
+.close-icon {
+    height: 30px;
+}
+
+.expanded-task-title {
+    display: block;
+    margin: 30px 0 15px 0;
+    font-size: 25px;
+    text-wrap: wrap;
+}
+
+.expanded-task-description {
+    font-size: 20px;
+    white-space: pre-line;
+}
+
+.expanded-task-due {
+    margin-top: 40px;
+}
+
+.date {
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    bottom: 7px;
+}
+
+.expanded-task-category {
+    padding: 10px;
+    background-color: rgb(199, 194, 194);
+    width: fit-content;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+.delete-button {
+    height: 50px;
+    width: 125px;
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #ff002b;
+    position: fixed;
+    right: 40px;
+    bottom: 100px;
+}
