@@ -33,7 +33,7 @@ export default function Sidebar(props) {
                         onClick={props.collapseSidebar}
                         className="menu-button inside-sidebar"
                     >
-                        <img src="../images/three-bars.PNG" className="three-bars-icon" />
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
                     </button></div>
                 <div className="all-tasks" onClick={() => setFilterCategory("")}>
                     <span className="all-task-text">All Tasks</span>

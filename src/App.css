@@ -30,19 +30,18 @@
   background-color: transparent;
   border: 1px solid lightgray;
   border-radius: 10px;
-  text-align: left;
   padding: 10px 25px;
+  color: lightgray;
+  text-align: left;
+  display: inline-flex;
+}
+
+.add-task span {
+  line-height: 30px;
   color: lightgray;
   font-size: 20px;
 }
 
-
-.add-icon {
-  height: 20px;
-  filter: invert(50%);
-  margin-right: 25px;
-  margin-top: 2px;
-}
 
 .task-list {
   max-height: 500px;
